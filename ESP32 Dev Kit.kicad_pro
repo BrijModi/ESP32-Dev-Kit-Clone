@@ -208,7 +208,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
@@ -411,6 +411,10 @@
     [
       "56a9cdb5-133f-4918-8bc1-4c774ad33a13",
       "Root"
+    ],
+    [
+      "f318609c-e539-4c7e-9c94-d051df95234a",
+      "Connectors"
     ]
   ],
   "text_variables": {}
