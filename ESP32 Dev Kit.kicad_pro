@@ -52,7 +52,12 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "via_dangling|153253565|95290765|2d47a715-ef37-42aa-b957-550b85237975|00000000-0000-0000-0000-000000000000",
+          "No Issue"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -95,7 +100,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "error",
-        "silk_over_copper": "error",
+        "silk_over_copper": "ignore",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -127,7 +132,7 @@
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.4,
-        "min_text_thickness": 0.04,
+        "min_text_thickness": 0.05,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,

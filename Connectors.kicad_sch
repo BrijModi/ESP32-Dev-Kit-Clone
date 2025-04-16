@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 Dev Kit V1 (30 pin) Clone")
-		(date "2025-04-15")
-		(rev "3")
+		(date "2025-04-16")
+		(rev "4")
 		(company "Brij Modi")
 	)
 	(lib_symbols
