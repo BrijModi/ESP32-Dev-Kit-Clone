@@ -495,10 +495,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber for ESP32 Dev Kit/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ESP32 Dev Kit.step",
       "svg": "",
       "vrml": ""
     },
