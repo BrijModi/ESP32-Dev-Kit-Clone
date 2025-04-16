@@ -10,7 +10,7 @@
 	(title_block
 		(title "ESP32 Dev Kit V1 (30 pin) Clone")
 		(date "2025-04-16")
-		(rev "4")
+		(rev "5")
 		(company "Brij Modi")
 	)
 	(layers
@@ -197,8 +197,8 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at -2.159 -0.0254 180)
-			(layer "F.SilkS")
+			(at -2.159 -0.0254 0)
+			(layer "F.Fab")
 			(uuid "0bfac654-065e-44f2-8e1e-33591792eee4")
 			(effects
 				(font
@@ -399,7 +399,7 @@
 		(tags "SOD-123")
 		(property "Reference" "D1"
 			(at -2.6924 -0.0254 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "53e46967-3c2e-47cc-bb0c-2bd588ac7c40")
 			(effects
 				(font
@@ -682,7 +682,7 @@
 		(tags "Micro B USB SMD")
 		(property "Reference" "J1"
 			(at 0.1018 -0.0558 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "94815bea-ded5-4401-9360-0c4f14e41264")
 			(effects
 				(font
@@ -1025,7 +1025,7 @@
 		(tags "Tactile Switch")
 		(property "Reference" "SW1"
 			(at 0 -2.0324 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "55bc37a8-1754-4977-b226-263154c34aa1")
 			(effects
 				(font
@@ -1276,8 +1276,8 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
 			(at 2.1336 -0.0254 90)
-			(layer "F.SilkS")
-			(uuid "82350302-b46e-46cc-ae2a-d3c3d2183dd2")
+			(layer "F.Fab")
+			(uuid "2f02892f-e9ca-418d-9070-94c47e1c81f5")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -1286,13 +1286,13 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 0 1.68 0)
+			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "8258146a-cab3-40fa-a713-85631e05ad3b")
+			(uuid "99cc3bfa-8c37-47f4-88ec-82734d0aa843")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.06)
 				)
 			)
 		)
@@ -1301,7 +1301,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83e6f373-c470-4a35-9944-4b3714d1dadc")
+			(uuid "9e188a6f-ef63-4281-bfaf-797fba44bbff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1314,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15a3688d-c5ba-4eb2-b4d3-04749534c031")
+			(uuid "b042a9c4-6203-4b19-bc17-405389eb6dd4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1477,7 @@
 		(tags "Tactile Switch")
 		(property "Reference" "SW2"
 			(at 0 2.159 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "f9dcab3c-662e-430b-9566-2eb1fd6ac000")
 			(effects
 				(font
@@ -1728,7 +1728,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
 			(at 2.1449 0.0254 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e04bc065-5ddb-4fbf-9cb9-8368dfbc5215")
 			(effects
 				(font
@@ -1928,8 +1928,8 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at 1.27 1.0668 180)
-			(layer "F.SilkS")
+			(at 1.27 1.0668 0)
+			(layer "F.Fab")
 			(uuid "fcb7e8aa-7e39-4579-b1c7-16fa9fe9e888")
 			(effects
 				(font
@@ -2298,7 +2298,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
 			(at 2.159 0 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7425abbb-9ee7-4160-8140-4cc421942f91")
 			(effects
 				(font
@@ -2498,8 +2498,8 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at -2.2098 -0.0254 180)
-			(layer "F.SilkS")
+			(at -2.2098 -0.0254 0)
+			(layer "F.Fab")
 			(uuid "5eb452c9-a0b1-4374-92b3-17a03f1606c3")
 			(effects
 				(font
@@ -2509,13 +2509,13 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 90)
-			(layer "F.Fab")
+			(at 0 -0.0254 90)
+			(layer "F.SilkS")
 			(uuid "36d08aae-d498-4e83-a529-ab2ccc49b842")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.06)
 				)
 			)
 		)
@@ -2733,7 +2733,7 @@
 		(at 160.8582 99.695 90)
 		(property "Reference" "U3"
 			(at 3.429 0.0254 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "5b2643cf-e7ba-4a35-bca2-f172dc8212d5")
 			(effects
 				(font
@@ -3351,6 +3351,17 @@
 			(uuid "ab6f5a55-8086-47d6-b1c8-c2195bedf206")
 		)
 		(embedded_fonts no)
+		(model "D:/KiCAD/KiCAD Libraries (External)/CP2102/CP2102GM.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -3360,7 +3371,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
 			(at 2.25 0 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "890618d9-ddee-4b4a-a1e8-e4d0c000c325")
 			(effects
 				(font
@@ -3370,13 +3381,13 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 0 1.68 90)
-			(layer "F.Fab")
+			(at 0.0254 0.0254 90)
+			(layer "F.SilkS")
 			(uuid "c06fc200-e996-4546-beee-1c2bb35acc4f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.06)
 				)
 			)
 		)
@@ -3561,7 +3572,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
 			(at 2.1844 -0.0254 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "2d6f938b-9df2-4791-816f-393d253730a8")
 			(effects
 				(font
@@ -3762,7 +3773,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
 			(at 2.1883 0 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "18085f7e-d920-4b7b-8753-ff68a153bc32")
 			(effects
 				(font
@@ -3772,13 +3783,13 @@
 			)
 		)
 		(property "Value" "10uf"
-			(at 0 1.68 0)
+			(at 0 1.68 180)
 			(layer "F.Fab")
 			(uuid "b34cb5a5-2896-432e-b1ac-b355c95d9d0d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.06)
 				)
 			)
 		)
@@ -3963,7 +3974,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
 			(at -2.1844 0 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "e0951268-bf41-4a08-a270-077dd69ee329")
 			(effects
 				(font
@@ -4164,7 +4175,7 @@
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
 			(at 1.1938 0.9285 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "63de55fe-0768-4d72-b093-49a598446402")
 			(effects
 				(font
@@ -4533,7 +4544,7 @@
 		(tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
 		(property "Reference" "U1"
 			(at 9.7081 9.5304 180)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "07cb22e3-470e-4e89-adbc-a840107278c5")
 			(effects
 				(font
@@ -5461,8 +5472,8 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at -2.159 -0.0254 180)
-			(layer "F.SilkS")
+			(at -2.159 -0.0254 0)
+			(layer "F.Fab")
 			(uuid "e571ffe1-6fd1-4fac-8daf-766fd2b38004")
 			(effects
 				(font
@@ -5662,8 +5673,8 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U2"
-			(at 3.15 -2.65 180)
-			(layer "F.SilkS")
+			(at 3.15 -2.65 0)
+			(layer "F.Fab")
 			(uuid "39b8dd38-0e7b-4793-9746-6c049406e458")
 			(effects
 				(font
@@ -5928,7 +5939,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
 			(at 0 -1.2954 270)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "325da493-b336-4824-b431-40718f3d0c8c")
 			(effects
 				(font
@@ -5938,13 +5949,13 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "F.SilkS")
 			(uuid "8b92c43b-5f08-4c95-a3ac-9af881ebdb20")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.06)
 				)
 			)
 		)
@@ -6129,7 +6140,7 @@
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
 			(at 2.1844 0.0254 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "8ca7b19b-abfd-4f3a-9a03-8f7c7c6ee71f")
 			(effects
 				(font
@@ -6330,7 +6341,7 @@
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
 			(at 2.1336 0.0254 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "4540025a-d0bc-484e-8a08-a8251bc938c5")
 			(effects
 				(font
@@ -6340,13 +6351,13 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c70cb778-7f97-4595-bf42-f2062793e1e0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.06)
 				)
 			)
 		)
@@ -6531,14 +6542,13 @@
 		(tags "Through hole pin header THT 1x15 2.54mm single row")
 		(property "Reference" "J3"
 			(at 0 2.33 90)
-			(layer "B.SilkS")
+			(layer "F.Fab")
 			(uuid "c35ad871-c210-4aba-8abe-8b92972dc90d")
 			(effects
 				(font
 					(size 0.6 0.6)
 					(thickness 0.08)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "Conn_01x15"
@@ -7617,14 +7627,13 @@
 		(tags "Through hole pin header THT 1x15 2.54mm single row")
 		(property "Reference" "J2"
 			(at 0 2.33 90)
-			(layer "B.SilkS")
+			(layer "F.Fab")
 			(uuid "5c1e361f-2f06-4d80-b7ce-118e1a433f90")
 			(effects
 				(font
 					(size 0.6 0.6)
 					(thickness 0.08)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "Conn_01x15"
@@ -8523,20 +8532,9 @@
 		)
 	)
 	(gr_text "10uf"
-		(at 154.8677 105.2322 0)
+		(at 154.8677 105.2322 180)
 		(layer "F.SilkS")
 		(uuid "1a2483d2-9141-452c-a39e-a2ed169b0f37")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.06)
-			)
-		)
-	)
-	(gr_text "10k"
-		(at 149.8854 101.727 90)
-		(layer "F.SilkS")
-		(uuid "1d09ba3b-9dfb-4f91-ad0e-056693b2e634")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -8581,7 +8579,7 @@
 		)
 	)
 	(gr_text "Boot"
-		(at 171.196 100.203 180)
+		(at 171.196 100.2792 180)
 		(layer "F.SilkS")
 		(uuid "3458d873-df6c-4676-ae5d-a46a312021f6")
 		(effects
@@ -8605,7 +8603,7 @@
 		)
 	)
 	(gr_text "CP2102"
-		(at 160.8582 98.7806 0)
+		(at 160.8836 100.4316 180)
 		(layer "F.SilkS")
 		(uuid "3556a8ef-2467-4f1f-972c-e8b2f34133af")
 		(effects
@@ -8640,7 +8638,7 @@
 		)
 	)
 	(gr_text "330"
-		(at 150.0632 112.395 0)
+		(at 150.0632 112.395 180)
 		(layer "F.SilkS")
 		(uuid "3cd66148-d4c0-4b2e-a610-55069c0209fe")
 		(effects
@@ -8666,17 +8664,6 @@
 		(at 165.2778 105.029 90)
 		(layer "F.SilkS")
 		(uuid "44ac9498-0a5b-4285-a43b-fc2e3bbc4db0")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.06)
-			)
-		)
-	)
-	(gr_text "100nf"
-		(at 149.9362 97.3074 0)
-		(layer "F.SilkS")
-		(uuid "48322ad4-2c85-4758-ad94-d7492bc1e109")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -8733,7 +8720,7 @@
 		)
 	)
 	(gr_text "AMS1117-3.3"
-		(at 160.8715 111.7092 0)
+		(at 160.8715 111.7092 180)
 		(layer "F.SilkS")
 		(uuid "6d7154a3-9147-4bbb-8f81-553547547ef7")
 		(effects
@@ -8756,7 +8743,7 @@
 		)
 	)
 	(gr_text "0.1uf"
-		(at 169.5958 118.5926 0)
+		(at 169.5958 118.5926 180)
 		(layer "F.SilkS")
 		(uuid "78b6e84b-3a86-4f48-a63f-673d9619d329")
 		(effects
@@ -8778,6 +8765,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "1k"
+		(at 154.9146 97.3074 180)
+		(layer "F.SilkS")
+		(uuid "7fb79654-426b-47f1-8977-7c2d12918b3e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.06)
+			)
+		)
+	)
 	(gr_text "TX0"
 		(at 134.8794 94.3618 180)
 		(layer "F.SilkS")
@@ -8791,7 +8789,7 @@
 		)
 	)
 	(gr_text "0.1uf"
-		(at 150.0632 115.2398 0)
+		(at 150.0632 115.2398 180)
 		(layer "F.SilkS")
 		(uuid "83d170be-04f3-4bcc-8819-e670866b989f")
 		(effects
@@ -8838,7 +8836,7 @@
 		)
 	)
 	(gr_text "Schottky\n"
-		(at 160.4264 105.156 0)
+		(at 160.4264 105.156 180)
 		(layer "F.SilkS")
 		(uuid "9bca343b-227d-4fb1-a301-1abd9e6e9e80")
 		(effects
@@ -8848,8 +8846,19 @@
 			)
 		)
 	)
+	(gr_text "100nf"
+		(at 149.9362 97.3074 180)
+		(layer "F.SilkS")
+		(uuid "9e9f7295-f10c-4203-8ed7-bac9dea2ef64")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.06)
+			)
+		)
+	)
 	(gr_text "10k"
-		(at 154.8243 112.5982 0)
+		(at 154.8243 112.5982 180)
 		(layer "F.SilkS")
 		(uuid "ad8bca4a-faa2-44b4-81af-6b65d363a501")
 		(effects
@@ -8872,7 +8881,7 @@
 		)
 	)
 	(gr_text "2N2222\n"
-		(at 154.7368 109.093 0)
+		(at 154.7368 109.093 180)
 		(layer "F.SilkS")
 		(uuid "b0b69c4a-2cab-44d5-a0aa-769f179f77d7")
 		(effects
@@ -8895,7 +8904,7 @@
 		)
 	)
 	(gr_text "10uf\n"
-		(at 154.7876 115.2652 0)
+		(at 154.7876 115.2652 180)
 		(layer "F.SilkS")
 		(uuid "b405bbb4-80fe-4a91-88b2-29d8b72e22d3")
 		(effects
@@ -8929,17 +8938,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "LED"
-		(at 148.8948 108.9152 90)
-		(layer "F.SilkS")
-		(uuid "da6db73d-0db0-45a0-8746-576ce2856bd0")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.06)
-			)
-		)
-	)
 	(gr_text "RX0\n"
 		(at 137.4294 94.4118 180)
 		(layer "F.SilkS")
@@ -8965,7 +8963,7 @@
 		)
 	)
 	(gr_text "ESP32-WROOM-32"
-		(at 135.7122 103.1494 0)
+		(at 135.7122 110.3884 180)
 		(layer "F.SilkS")
 		(uuid "df8e1756-3034-4718-b64f-9ccb23341c60")
 		(effects
@@ -8976,7 +8974,7 @@
 		)
 	)
 	(gr_text "1k"
-		(at 151.5618 108.9152 0)
+		(at 151.5618 108.9152 180)
 		(layer "F.SilkS")
 		(uuid "e3ac3da9-5460-435b-a6fd-ff632c59eda2")
 		(effects
@@ -8998,28 +8996,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "100nf\n"
-		(at 165.7858 98.8822 90)
-		(layer "F.SilkS")
-		(uuid "ec9699df-da99-4caa-8273-979204c95129")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.06)
-			)
-		)
-	)
-	(gr_text "1k"
-		(at 154.9146 97.3074 0)
-		(layer "F.SilkS")
-		(uuid "f15b0f4d-8a90-449e-ba07-15a3ae2464d1")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.06)
-			)
-		)
-	)
 	(gr_text "D35"
 		(at 139.9332 116.967 180)
 		(layer "F.SilkS")
@@ -9033,7 +9009,7 @@
 		)
 	)
 	(gr_text "2N2222\n"
-		(at 154.4574 101.5238 0)
+		(at 154.4574 101.5238 180)
 		(layer "F.SilkS")
 		(uuid "f664a944-1264-4e63-9a27-53a5f3f828f6")
 		(effects
@@ -9070,11 +9046,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.3")
-		(uuid "3f9f0c7c-882c-4c17-a103-e099fd03d6ed")
+		(uuid "2cda0113-9ef1-4018-a564-79eb4cda4895")
 		(pts
-			(xy 169.4688 91.4654) (xy 169.4688 120.6246)
+			(xy 171.196 91.4654) (xy 171.196 120.6246)
 		)
-		(height 9.4996)
+		(height 11.2014)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -9094,9 +9070,9 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "29.1592"
-			(at 177.8184 106.045 90)
+			(at 181.2474 106.045 90)
 			(layer "User.3")
-			(uuid "3f9f0c7c-882c-4c17-a103-e099fd03d6ed")
+			(uuid "2cda0113-9ef1-4018-a564-79eb4cda4895")
 			(effects
 				(font
 					(size 1 1)
@@ -9108,11 +9084,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.3")
-		(uuid "b045fc95-ec83-4eab-98b6-21f880be4ad2")
+		(uuid "68d67cc9-f005-4d4f-857c-9807076c7b09")
 		(pts
-			(xy 126.6444 102.0572) (xy 173.6344 102.0572)
+			(xy 126.6444 118.1862) (xy 173.6598 118.1862)
 		)
-		(height 29.972)
+		(height 10.4648)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -9131,10 +9107,10 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "46.99"
-			(at 150.1394 130.8792 0)
+		(gr_text "47.0154"
+			(at 150.1521 127.501 0)
 			(layer "User.3")
-			(uuid "b045fc95-ec83-4eab-98b6-21f880be4ad2")
+			(uuid "68d67cc9-f005-4d4f-857c-9807076c7b09")
 			(effects
 				(font
 					(size 1 1)
